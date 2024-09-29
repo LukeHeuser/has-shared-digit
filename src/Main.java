@@ -24,7 +24,7 @@ public class Main {
         int secondDigitOne = second / 10;
         int secondDigitTwo = second % 10;
 
-        return firstDigitOne == secondDigitOne || firstDigitOne == secondDigitTwo || + // compares the digits to see if any match.
+        return firstDigitOne == secondDigitOne || firstDigitOne == secondDigitTwo || // compares the digits to see if any match.
                 firstDigitTwo == secondDigitOne || firstDigitTwo == secondDigitTwo;
     }
 
